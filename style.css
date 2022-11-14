@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-weight: bold;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.mapboxgl-popup {
+  max-width: 400px;
+  font: 12px/20px "Open Sans", sans-serif;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+#menu {
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+  background: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#scatter-plots {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 10em;
+  right: 0.5em;
+  background: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+.legend,
+.legend2,
+.legend3 {
+  background-color: #fff;
+  border-radius: 3px;
+  bottom: 30px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+  z-index: 1;
+}
+
+.legend h4,
+.legend2 h4,
+.legend3 h4 {
+  margin: 0 0 10px;
+}
+
+.legend div span,
+.legend2 div span,
+.legend3 div span {
+  border-radius: 20%;
+  display: inline-block;
+  height: 10px;
+  margin-right: 5px;
+  width: 10px;
+}
+
+/* #poverty-legend {
+    display: "none";
+  } */
+
+.legend2,
+.legend3 {
+  display: none;
+}
+
+/* .legend3 {
+  display: none;
+} */
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+}
+
+input[type="radio"]#cla5wix8s000214l3pe8h6vya {
+  accent-color: purple;
+}
+
+input[type="radio"]#cla1p8oxf000f14o4armz7occ {
+  accent-color: purple;
+}
+
+input[type="radio"]#cla2h45k1000814n2vxfz5e7y {
+  accent-color: purple;
+}
+
+#features {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  overflow: auto;
+  background: rgba(255, 255, 255, 0.8);
+}
